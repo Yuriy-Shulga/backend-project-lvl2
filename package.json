@@ -1,0 +1,37 @@
+{
+  "name": "@hexlet/code",
+  "version": "1.0.0",
+  "description": "\u0016Compares two configuration files and shows a difference.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "gendiff": "bin/gendiff.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yuriy-Shulga/backend-project-lvl2.git"
+  },
+  "keywords": [
+    "cli",
+    "json",
+    "yml\u001b[D\u001b[Daml",
+    "gendiff"
+  ],
+  "author": "Yuriy Shulga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yuriy-Shulga/backend-project-lvl2/issues"
+  },
+  "homepage": "https://github.com/Yuriy-Shulga/backend-project-lvl2#readme",
+  "dependencies": {
+    "commander": "^10.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.38.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5"
+  }
+}
